@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*-------------------------------------------section 1--------------------------------------*/
+.section-1{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./pictures/bground\ for\ project.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+header h2{
+    color: white;
+}
+header p{
+    color: white;
+}
+span{
+    color: red;
+}
+.box{
+    width: 50%;
+    margin: 20px  200px;
+}
+.box h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 15px;
+}
+.box  p{
+    color: white;
+    font-size: 20px;
+}
+
+
+/*-------------------------------------------section 2--------------------------------------*/
+
+.section-2{
+background-color: azure;
+}
+article{
+    display: flex;
+    padding: 80px 200px;
+    gap: 30px;
+}
+.col h2{
+    width: 210px;
+    padding: 0 10px;
+}
+.col:hover{
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.7);
+    transition: 0.5s;
+    
+}
+.col img{
+    width: 100%;
+    
+}
+.col p{
+    padding: 5px 10px;
+
+}
+
+/*-------------------------------------------section 3--------------------------------------*/
+.section-3{
+    background-color: rgba(13, 19, 19, 0.836);
+}
+.about-p{
+    color: white;
+    margin-bottom: 109px;
+    width: 380px;
+    margin-top: 20px;
+}
+.about-pp{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid;
+    padding: 15px 30px;
+}
+a:hover{
+    background-color: aquamarine;
+    color: red;
+}
+
+/*-------------------------------------------section 4-------------------------------------*/
+
+.section-4 p{
+    color: black;
+}
+
+.section-4 a{
+    color: black;
+}
+.section-4 a:hover{
+    color: red;
+}
+/*-------------------------------------------section 5-------------------------------------*/
+
+
+.section-5{
+    padding: 80px 200px;
+    background-color: red;
+}
+.user{
+    text-align: center;
+}
+
+.user p{
+    color: white;
+    margin-bottom: 30px;
+}
+.user h3{
+    color: white;
+}
+.user .fa-regular{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+/*-------------------------------------------section 6-------------------------------------*/
+
+.col-6 p{
+    margin-top: 20px;
+    width: 295px;
+}
+
+/*-------------------------------------------footer-------------------------------------*/
+
+
+.footer{
+    text-align: center;
+    padding: 10px 200px;
+    background-color: rgba(13, 19, 19, 0.836);
+    color: white;
+}
+.footer p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/*-------------------------------------------media query-------------------------------------*/
+@media(max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header p{
+        margin-left: 15px;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 10px 40px;
+    }
+    article{
+        flex-direction: column;
+        margin: auto;
+        padding: 20px 50px;
+    }
+    .about-us{
+       padding: 0;
+       margin-bottom: 20px;
+       padding-bottom: 30px
+    }
+
+    a{
+    padding: 5px 10px;
+    margin: 30px 50px;
+    
+    }
+  
+    .about-us img{
+        width: 310px;
+        margin: 20px 50px;
+        height: 262px;
+    }
+    .col-2 h2{
+        width: 250px;
+    }
+    .col-2 h2,.about-pp,.about-p{
+        width: 262px; 
+        margin: 5px 50px;
+    }
+    .col-2{
+       padding-bottom: 30px;
+    }
+
+
+    .box{
+       margin: 20px 50px;
+    }
+    .box h1{
+        font-size: 20px;
+        color: white;
+        
+    
+    }
+    .box  p{
+        color: white;
+        width: 290px;
+       
+    }
+    .section-5{
+        padding: 10px 50px;
+    }
+    .footer{
+        padding: 0;
+    }
+    .footer p{
+        font-size: 13px;
+        margin-top: 5px;
+        padding: 0 30px;
+    }
+}
+@media(max-width:500px){
+
+    .box h1{
+        font-size: 30px;
+        width: 200px;
+        color: white;
+        margin-right: 100px;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
